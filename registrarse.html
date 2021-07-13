@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Registrate en AnimeXD, para acceder a muchos beneficios como guardar tus animes, entre otros">
+	<meta name="keywords"  content="HTML, ANIME, ONLINE, GRATIS, OTAKU, MEJOR, VER, MIRAR, SESION, CUENTA">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="scss/estilos.css">
+
+	<title>Registrarse en AnimeXD</title>
+</head>
+<body>
+	<header id="header">
+		<nav class="navbar navbar-expand-lg nav mx-auto">
+			<div class="contenedorHeader">
+			  <a class="navbar-brand" href="index.html"><img src="media/logo.png" class="logo"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"><img src="media/flecha.png" class="flecha"></span>
+			  </button>
+			</div>
+			  <div class="collapse navbar-collapse barra" id="navbarSupportedContent">
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Buscar un Anime" aria-label="Search">
+			      <button class="btn btn-outline-danger my-2 my-sm-0 headerButton border-danger text-white" type="submit">Buscar</button>
+			    </form>
+			  </div>
+			  <div class="collapse navbar-collapse drop" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto ">
+			      <li class="nav-item dropdown header-list">
+			        <a class="nav-link dropdown-toggle rounded-pill d" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Generos
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#">Accion</a>
+			          <a class="dropdown-item" href="#">Romance</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">Sobrenatural</a>
+			        </div>
+			      </li>
+			      <li class="header-list">
+			      	<a href="iniciar-sesion.html"><img src="media/sesion.png" class="iniciar"></a>
+			      </li>
+			    </ul>
+			  </div>
+		</nav>
+	</header> 
+	<section id="registro">
+		<div></div>
+		<div class="registro-contenedor">
+			<h3 class="r">Registrarse</h3>
+			<form class="registro-formulario">
+				<div>
+					<label>Nombre</label>
+					<input type="text" name="nombre" placeholder="Nombre" class="reg">
+					<label>Apellido</label> 
+					<input type="text" name="apellido" placeholder="Apellido" class="reg">
+				</div>
+				<div>
+					<label>Correo Electronico</label>
+					<input type="email" name="mail" placeholder="Correo Electronico" class="reg">
+				</div>
+				<div>
+					<label>Contraseña</label>
+					<input type="password" name="contraseña" placeholder="Contraseña" class="reg">
+				</div>
+				<div>
+					<label>Confirma tu contraseña</label>
+					<input type="password" name="contraseña" placeholder="Confirma tu contraseña" class="reg">
+				</div>
+				<div>
+					<div style="font-style: italic; font-size: 13px;">Sexo</div>
+					<label>Masculino</label>
+					<input type="radio" name="genero">
+					<label>Femenino</label>
+					<input type="radio" name="genero">
+					<label>Otro</label>
+					<input type="radio" name="genero">
+				</div>
+				<div>
+					<label>Leí y acepto los <a href="terminos.html" target="_blank">terminos y condiciones de este sitio</a></label>
+					<input type="checkbox" name="terminos">
+				</div>
+				<div>
+					<input type="submit" name="resgistrarse" value="Registrarse">
+				</div>
+			</form>
+		</div>
+	</section>
+	<footer id="footer">
+		<ul class="footer-list">
+			<li class="li-footer"><div class="redes-sociales fo"> Redes sociales:
+				<a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram oficial</a>
+				<a href="https://es-la.facebook.com/" target="_blank">Facebook oficial</a>
+				</div></li>
+			<li class="li-footer"><div class="fo">
+				<a href="nosotros.html">Acerca de nosotros</a>
+				</div></li>
+			<li class="li-footer"><div class="fo">
+				<a href="ayuda.html">Ayuda</a>
+				</div></li>
+		</ul>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
