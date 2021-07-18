@@ -56,10 +56,14 @@ body{
         background-color: #292929;
         color: white;
     }
-    .carrousel{
-        width: 100%;
-        height: 500px;
-        border-bottom: 10px solid black;
+}
+.carrousel{
+    width: 100%;
+    height: 500px;
+    border-bottom: 10px solid black;
+    a{
+        text-decoration: none;
+        color: whitesmoke;
     }
 }
 #contenido{
@@ -108,7 +112,17 @@ body{
     }
     .item-lista-contenido{
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .item-lista-contenido:hover{
+        transform: scale(1.02);
+        transition: all 150ms ease-in-out;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: none;
     }
 }
 #footer{
@@ -294,113 +308,113 @@ body{
         background-color: #191919;
         }
         #header{
-            overflow: hidden;
-            height: auto;
-        .contenedorHeader{
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: center;
-            margin-left: 200px;
-        }
-        .barra{
-            margin-left: 200px;
-        }
-        .drop{
-            margin-left: 100px;
-            margin-top: 10px;
-        }
-        .header-list{
-            margin-top: 20px;
-        }
-        .logo{
-            width: 150px;
-            margin-left: 100px;
-        }
-        .directorio{
-            width: 50px;
-        }
-        .iniciar{
-            width: 35px;
-        }
-        .directorio-dos{
-            width: 50px;
-        }
-        .d{
-            width: 20%;
-        }
-        .celuHeader{
-            color: whitesmoke;
-        }
-        .flecha{
-            width: 40px;
+                overflow: hidden;
+                height: auto;
+            .contenedorHeader{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                margin-left: 200px;
+            }
+            .barra{
+                margin-left: 200px;
+            }
+            .drop{
+                margin-left: 100px;
+                margin-top: 10px;
+            }
+            .header-list{
+                margin-top: 20px;
+            }
+            .logo{
+                width: 150px;
+                margin-left: 100px;
+            }
+            .directorio{
+                width: 50px;
+            }
+            .iniciar{
+                width: 35px;
+            }
+            .directorio-dos{
+                width: 50px;
+            }
+            .d{
+                width: 20%;
+            }
+            .celuHeader{
+                color: whitesmoke;
+            }
+            .flecha{
+                width: 40px;
+            }
         }
         .carrousel{
             height: auto;
         }
-        }
         #contenido{
             display: flex;
             flex-direction: column; 
-        .animes-fotos{
-            width: 100%;
-            display: grid;
-            grid-template-columns: 50% 50%;
-            align-items: center;
-            justify-content: center;
+            .animes-fotos{
+                width: 100%;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                align-items: center;
+                justify-content: center;
 
-        }
-        .imagenes-link{
-            width: 100px !important;
-            margin-left: 45px;
-        }
-        .card-body{
-            width: 100%;
-            height: auto;
-        }
-        .animes-lista {
-		    overflow: hidden;
-		    border: none;
-		    width: 100%;
-		}
+            }
+            .imagenes-link{
+                width: 100px !important;
+                margin-left: 45px;
+            }
+            .card-body{
+                width: 100%;
+                height: auto;
+            }
+            .animes-lista {
+                overflow: hidden;
+                border: none;
+                width: 100%;
+            }
         }
         #sesion{
         .c-formulario-inicio-de-sesion{
             width: 100%;
-        }
-        .rengoku-container{
-            width: 0;
-        }
-        .formulario-inicio-de-sesion{
-            margin-bottom: 20px;
-        }
+            }
+            .rengoku-container{
+                width: 0;
+            }
+            .formulario-inicio-de-sesion{
+                margin-bottom: 20px;
+            }
         }
         #registro{
             display: grid;
             grid-template-columns: 100%;
             grid-template-rows: 0;
-        .registro-formulario{
-            margin-left: 5px;
-        }
-        .r{
-            color: red; 
-            margin-left: 5px; 
-            border-top: 10px;
-        }
+            .registro-formulario{
+                margin-left: 5px;
+            }
+            .r{
+                color: red; 
+                margin-left: 5px; 
+                border-top: 10px;
+            }
         }
         #nosotros{ 
-        .nosotros-titulo{
-            color: red;
-            font-size: 15px;
-            margin-top: 10px;
-            margin-left: 60px;
-        }
-        .nosotros-contenedor-de-texto{
-            font-size: 12px;
-            width: 70%;
-            height: auto;
-            margin-left: 60px;
-            margin-top: 10px;
-        }
+            .nosotros-titulo{
+                color: red;
+                font-size: 15px;
+                margin-top: 10px;
+                margin-left: 60px;
+            }
+            .nosotros-contenedor-de-texto{
+                font-size: 12px;
+                width: 70%;
+                height: auto;
+                margin-left: 60px;
+                margin-top: 10px;
+            }
         }
         #ayuda{
             width: auto;
@@ -408,34 +422,34 @@ body{
             background-color: #191919;
             display: flex;
             flex-direction: row;
-        .contenedor-de-ayuda{
-            width: 100%;
-            height: 82vh;
-        }
-        .ayuda-lista li{
-            list-style-type: none;
-			margin-left: 20px;
-			margin-bottom: 50px; 
-        }
-        .contenedor-de-imagen-de-ayuda{
-            width: 0;
-        }		
+            .contenedor-de-ayuda{
+                width: 100%;
+                height: 82vh;
+            }
+            .ayuda-lista li{
+                list-style-type: none;
+                margin-left: 20px;
+                margin-bottom: 50px; 
+            }
+            .contenedor-de-imagen-de-ayuda{
+                width: 0;
+            }		
         }
         #footer{
             height: auto;
             width: 100%;
-        .fo{
-            margin: 10px;
-        }
-        .footer-list{
-            margin: 0;
-            margin-right: 20px;
-            flex-direction: column;
-            justify-content: start;
-        }
-        .li-footer{
-            margin-top: 1vh;
-        }
+            .fo{
+                margin: 10px;
+            }
+            .footer-list{
+                margin: 0;
+                margin-right: 20px;
+                flex-direction: column;
+                justify-content: start;
+            }
+            .li-footer{
+                margin-top: 1vh;
+            }
         }
         #contenido-animes{
             background-image: none;

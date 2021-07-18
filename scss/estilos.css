@@ -82,10 +82,15 @@ body {
   color: white;
 }
 
-#header .carrousel {
+.carrousel {
   width: 100%;
   height: 500px;
   border-bottom: 10px solid black;
+}
+
+.carrousel a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 #contenido {
@@ -157,7 +162,21 @@ body {
 
 #contenido .item-lista-contenido {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#contenido .item-lista-contenido:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+}
+
+#contenido a:hover {
+  text-decoration: none;
 }
 
 #footer {
@@ -475,7 +494,7 @@ body {
   #header .flecha {
     width: 40px;
   }
-  #header .carrousel {
+  .carrousel {
     height: auto;
   }
   #contenido {
