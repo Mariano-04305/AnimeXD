@@ -302,180 +302,394 @@ body{
     }
 }
 
+            @media all and (max-width: 768px){
+                body{
+                background-color: #191919;
+                }
+                #header{
+                        overflow: hidden;
+                        height: auto;
+                    .contenedorHeader{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        justify-content: center;
+                        margin-left: 200px;
+                    }
+                    .barra-busqueda{
+                        margin-top: 15px;
+                        margin-bottom: 20px;
+                    }
+                    .barra{
+                        margin-left: 200px;
+                    }
+                    .drop{
+                        margin-left: 100px;
+                        margin-top: 10px;
+                    }
+                    .header-list{
+                        margin-top: 20px;
+                    }
+                    .logo{
+                        width: 150px;
+                        margin-left: 100px;
+                    }
+                    .directorio{
+                        width: 50px;
+                    }
+                    .iniciar{
+                        width: 35px;
+                    }
+                    .directorio-dos{
+                        width: 50px;
+                    }
+                    .d{
+                        width: 20%;
+                    }
+                    .celuHeader{
+                        color: whitesmoke;
+                    }
+                    .flecha{
+                        width: 40px;
+                    }
+                }
+                .carrousel{
+                    height: auto;
+                }
+                #contenido{
+                    display: flex;
+                    flex-direction: column; 
+                    .animes-fotos{
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        justify-content: center;
 
-  @media all and (max-width: 600px){
-        body{
-        background-color: #191919;
-        }
-        #header{
-                overflow: hidden;
-                height: auto;
-            .contenedorHeader{
-                display: flex;
-                flex-direction: row-reverse;
-                justify-content: center;
-                margin-left: 200px;
-            }
-            .barra{
-                margin-left: 200px;
-            }
-            .drop{
-                margin-left: 100px;
-                margin-top: 10px;
-            }
-            .header-list{
-                margin-top: 20px;
-            }
-            .logo{
-                width: 150px;
-                margin-left: 100px;
-            }
-            .directorio{
-                width: 50px;
-            }
-            .iniciar{
-                width: 35px;
-            }
-            .directorio-dos{
-                width: 50px;
-            }
-            .d{
-                width: 20%;
-            }
-            .celuHeader{
-                color: whitesmoke;
-            }
-            .flecha{
-                width: 40px;
-            }
-        }
-        .carrousel{
-            height: auto;
-        }
-        #contenido{
-            display: flex;
-            flex-direction: column; 
-            .animes-fotos{
-                width: 100%;
-                display: grid;
-                grid-template-columns: 50% 50%;
-                align-items: center;
-                justify-content: center;
+                    }
+                    .imagenes-link{
+                        width: 100px !important; 
+                        margin: 40px;
+                        justify-self: center;
+                        
+                    }
+                    .card-body{
+                        width: 100%;
+                        height: auto;
+                    }
+                    .animes-lista {
+                        overflow: hidden;
+                        border: none;
+                        width: 100%;
+                    }
+                }
+                #sesion{
+                .c-formulario-inicio-de-sesion{
+                    width: 100%;
+                    }
+                    .rengoku-container{
+                        width: 0;
+                    }
+                    .formulario-inicio-de-sesion{
+                        margin-bottom: 20px;
+                    }
+                }
+                #registro{
+                    display: grid;
+                    grid-template-columns: 100%;
+                    grid-template-rows: 0;
+                    .registro-formulario{
+                        margin-left: 15px;
+                        font-size: 13px;
+                    }
+                    .r{
+                        color: red; 
+                        margin-left: 15px; 
+                        border-top: 10px;
+                    }
+                }
+                #nosotros{ 
+                    display: grid;
+                    .nosotros-titulo{
+                        color: red;
+                        justify-self: center;
+                        font-size: 15px;
+                        margin: 0;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    
+                    }
+                    .nosotros-contenedor-de-texto{
+                        font-size: 12px;
+                        width: 70%;
+                        height: auto;
+                        justify-self: center;
+                        margin: 0;
+                        margin-bottom: 25px;
+                    }
+                }
+                #ayuda{
+                    width: auto;
+                    height: 82vh;
+                    background-color: #191919;     
+                    .contenedor-de-ayuda{
+                        width: 100%;
+                        height: 82vh;
+                    }
+                    .ayuda-lista {
+                        list-style-type: none;
+                        justify-self: center;
+                        align-self: center;
+                        padding: 0;
+                        margin-right: 200px;
+                    }
+                    .contenedor-de-imagen-de-ayuda{
+                        width: 0;
+                    }		
+                }
+                #footer{
+                    height: auto;
+                    width: 100%;
+                    .fo{
+                        margin: 10px;
+                    }
+                    .footer-list{
+                        margin: 0;
+                        margin-right: 20px;
+                        flex-direction: column;
+                        justify-content: start;
+                    }
+                    .li-footer{
+                        margin-top: 1vh;
+                    }
+                }
+                #contenido-animes{
+                    background-image: none;
+                    background-color: #191919;
+                    .animes{
+                        margin-top: 10rem;
+                        margin-left: auto;
+                    }
+                    .bc{
+                        margin-bottom: 15rem;
+                    }
+                    .botones{
+                        margin-left: 0;
+                        flex-direction: row;
+                        justify-content: center;
+                    }
+                    .videito{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                    }
+                    .ytv{
+                        width: 100%;
+                        height: 350px;
+                    }
+                }
+                #terminos{
+                    .texterminos{
+                        text-align: center;
+                        display: contents;
+                    }
+                    .terminos-y-condiciones{
+                        margin: 20px;
+                        font-size: 13px;
+                    }
+                }
+                }
 
-            }
-            .imagenes-link{
-                width: 100px !important;
-                margin-left: 45px;
-            }
-            .card-body{
-                width: 100%;
-                height: auto;
-            }
-            .animes-lista {
-                overflow: hidden;
-                border: none;
-                width: 100%;
-            }
-        }
-        #sesion{
-        .c-formulario-inicio-de-sesion{
-            width: 100%;
-            }
-            .rengoku-container{
-                width: 0;
-            }
-            .formulario-inicio-de-sesion{
-                margin-bottom: 20px;
-            }
-        }
-        #registro{
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 0;
-            .registro-formulario{
-                margin-left: 5px;
-            }
-            .r{
-                color: red; 
-                margin-left: 5px; 
-                border-top: 10px;
-            }
-        }
-        #nosotros{ 
-            .nosotros-titulo{
-                color: red;
-                font-size: 15px;
-                margin-top: 10px;
-                margin-left: 60px;
-            }
-            .nosotros-contenedor-de-texto{
-                font-size: 12px;
-                width: 70%;
-                height: auto;
-                margin-left: 60px;
-                margin-top: 10px;
-            }
-        }
-        #ayuda{
-            width: auto;
-            height: 82vh;
-            background-color: #191919;
-            display: flex;
-            flex-direction: row;
-            .contenedor-de-ayuda{
-                width: 100%;
-                height: 82vh;
-            }
-            .ayuda-lista li{
-                list-style-type: none;
-                margin-left: 20px;
-                margin-bottom: 50px; 
-            }
-            .contenedor-de-imagen-de-ayuda{
-                width: 0;
-            }		
-        }
-        #footer{
-            height: auto;
-            width: 100%;
-            .fo{
-                margin: 10px;
-            }
-            .footer-list{
-                margin: 0;
-                margin-right: 20px;
-                flex-direction: column;
-                justify-content: start;
-            }
-            .li-footer{
-                margin-top: 1vh;
-            }
-        }
-        #contenido-animes{
-            background-image: none;
-            background-color: #191919;
-            .animes{
-                margin-top: 10rem;
-                margin-left: auto;
-            }
-            .bc{
-                margin-bottom: 15rem;
-            }
-            .botones{
-                margin-left: 0;
-                flex-direction: row;
-                justify-content: center;
-            }
-            .videito{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-            }
-            .ytv{
-                width: 100%;
-                height: 350px;
-            }
-        }
-        }
 
-       
+                @media all and (min-width: 768px) and (max-width: 1200px){
+                    body{
+                    background-color: #191919;
+                    }
+                    #header{
+                            overflow: hidden;
+                            height: auto;
+                        .contenedorHeader{
+                            display: flex;
+                            flex-direction: row-reverse;
+                            justify-content: center;
+                            margin-left: 200px;
+                        }
+                        .barra-busqueda{
+                            margin-top: 15px;
+                            margin-bottom: 20px;
+                        }
+                        .barra{
+                            margin-left: 200px;
+                        }
+                        .drop{
+                            margin-left: 100px;
+                            margin-top: 10px;
+                        }
+                        .header-list{
+                            margin-top: 20px;
+                        }
+                        .logo{
+                            width: 150px;
+                            margin-left: 100px;
+                        }
+                        .directorio{
+                            width: 50px;
+                        }
+                        .iniciar{
+                            width: 35px;
+                        }
+                        .directorio-dos{
+                            width: 50px;
+                        }
+                        .d{
+                            width: 20%;
+                        }
+                        .celuHeader{
+                            color: whitesmoke;
+                        }
+                        .flecha{
+                            width: 40px;
+                        }
+                    }
+                    .carrousel{
+                        height: auto;
+                    }
+                    #contenido{
+                        display: flex;
+                        flex-direction: column; 
+                        .animes-fotos{
+                            width: 100%;
+                            display: grid;
+                            justify-content: center;
+    
+                        }
+                        .imagenes-link{
+                            width: 115px !important; 
+                            margin: 40px;
+                            justify-self: center;
+                            
+                        }
+                        .card-body{
+                            width: 100%;
+                            height: auto;
+                        }
+                        .animes-lista {
+                            overflow: hidden;
+                            border: none;
+                            width: 100%;
+                        }
+                    }
+                    #sesion{
+                    .c-formulario-inicio-de-sesion{
+                        width: 100%;
+                        }
+                        .rengoku-container{
+                            width: 0;
+                        }
+                        .formulario-inicio-de-sesion{
+                            margin-bottom: 20px;
+                        }
+                    }
+                    #registro{
+                        display: grid;
+                        grid-template-columns: 100%;
+                        grid-template-rows: 0;
+                        .registro-formulario{
+                            margin-left: 15px;
+                            font-size: 13px;
+                        }
+                        .r{
+                            color: red; 
+                            margin-left: 15px; 
+                            border-top: 10px;
+                        }
+                    }
+                    #nosotros{ 
+                        display: grid;
+                        height: 90vh;
+                        .nosotros-titulo{
+                            color: red;
+                            justify-self: center;
+                            font-size: 20px;
+                            margin: 0;
+                            margin-top: 100px;
+                           
+                        }
+                        .nosotros-contenedor-de-texto{
+                            font-size: 15px;
+                            width: 70%;
+                            height: auto;
+                            justify-self: center;
+                            margin: 0;
+                            margin-bottom: 150px;
+                        }
+                    }
+                    #ayuda{
+                        width: auto;
+                        height: 82vh;
+                        background-color: #191919;     
+                        .contenedor-de-ayuda{
+                            width: 100%;
+                            height: 82vh;
+                        }
+                        .ayuda-lista {
+                            list-style-type: none;
+                            justify-self: center;
+                            align-self: center;
+                            padding: 0;
+                            margin-right: 150px;
+                        }
+                        .contenedor-de-imagen-de-ayuda{
+                            width: 0;
+                        }		
+                    }
+                    #footer{
+                        height: auto;
+                        width: 100%;
+                        .fo{
+                            margin: 10px;
+                        }
+                        .footer-list{
+                            margin: 0;
+                            margin-right: 20px;
+                            flex-direction: column;
+                            justify-content: start;
+                        }
+                        .li-footer{
+                            margin-top: 1vh;
+                        }
+                    }
+                    #contenido-animes{
+                        background-image: none;
+                        background-color: #191919;
+                        .animes{
+                            margin-top: 10rem;
+                            margin-left: auto;
+                        }
+                        .bc{
+                            margin-bottom: 15rem;
+                        }
+                        .botones{
+                            margin-left: 0;
+                            flex-direction: row;
+                            justify-content: center;
+                        }
+                        .videito{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                        }
+                        .ytv{ 
+                            height: 500px;
+                        }
+                    }
+                    #terminos{
+                        .texterminos{
+                            text-align: center;
+                            display: contents;
+                        }
+                        .terminos-y-condiciones{
+                            margin: 20px;
+                            font-size: 13px;
+                        }
+                    }
+                    }
+      
