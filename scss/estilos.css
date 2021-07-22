@@ -18,8 +18,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: s;
+      -ms-flex-pack: s;
+          justify-content: s;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -37,7 +38,7 @@ body {
 }
 
 #header .logo {
-  margin-right: 200px;
+  margin-right: 150px;
 }
 
 #header .d:hover, #header #header .flecha:hover, #header .iniciar:hover, #header .logo:hover {
@@ -253,18 +254,25 @@ body {
   width: auto;
   height: auto;
   background-color: #191919;
+  display: -ms-grid;
+  display: grid;
 }
 
 #nosotros .nosotros-titulo {
   color: red;
   font-size: 17px;
-  margin-top: 25px;
-  margin-left: 50px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #nosotros .nosotros-contenedor-de-texto {
-  width: 83%;
-  height: 67%;
+  width: 85%;
+  height: auto;
   background-color: #080808;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -273,12 +281,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 150px;
-  margin-top: 45px;
-  margin-bottom: 100px;
+  justify-self: center;
+  margin: 0;
+  margin-bottom: 250px;
 }
 
 #nosotros .texto {
@@ -417,14 +422,20 @@ body {
 }
 
 #contenido-animes .animes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
-  margin-left: 20rem;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 5rem;
 }
 
 #contenido-animes .bc {
   margin-top: 15px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   background-color: #0f0f0f;
   color: whitesmoke;
   border: none;
@@ -438,7 +449,12 @@ body {
 }
 
 #contenido-animes .botones {
-  margin-left: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media all and (max-width: 768px) {
@@ -542,7 +558,8 @@ body {
     width: 0;
   }
   #sesion .formulario-inicio-de-sesion {
-    margin-bottom: 20px;
+    margin-bottom: 200px;
+    margin-top: 75px;
   }
   #registro {
     display: -ms-grid;
@@ -629,6 +646,7 @@ body {
   #contenido-animes {
     background-image: none;
     background-color: #191919;
+    height: auto;
   }
   #contenido-animes .animes {
     margin-top: 10rem;
@@ -668,7 +686,10 @@ body {
     display: contents;
   }
   #terminos .terminos-y-condiciones {
-    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 13px;
   }
 }
@@ -772,24 +793,32 @@ body {
     width: 0;
   }
   #sesion .formulario-inicio-de-sesion {
-    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-bottom: 250px;
   }
-  #registro {
+  #registro .registro-contenedor {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 0;
-        grid-template-rows: 0;
+    -ms-grid-rows: 10% 90%;
+        grid-template-rows: 10% 90%;
   }
   #registro .registro-formulario {
     margin-left: 15px;
     font-size: 13px;
+    margin-bottom: 200px;
+    margin-top: auto;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   #registro .r {
     color: red;
     margin-left: 15px;
     border-top: 10px;
+    margin-top: 150px;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   #nosotros {
     display: -ms-grid;
@@ -897,8 +926,11 @@ body {
     display: contents;
   }
   #terminos .terminos-y-condiciones {
-    margin: 20px;
-    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
