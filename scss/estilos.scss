@@ -281,11 +281,15 @@ body{
     display: flex;
     flex-direction: row;
     .animes{
-        display: flex;
+        display: grid;
+        grid-template-columns: 100%;
         width: 100%;    
         margin: 0;
         justify-content: center;
         margin-top: 5rem;
+    }
+    .cap1-contenedor{
+        justify-self: center;
     }
     .bc{
         margin-top: 15px;
@@ -470,6 +474,7 @@ body{
                     background-color: #191919;
                     height: auto;
                     .animes{
+                        display: inline;
                         margin-top: 10rem;
                         margin-left: auto;
                     }
@@ -680,6 +685,7 @@ body{
                         background-image: none;
                         background-color: #191919;
                         .animes{
+                            display: inline;
                             margin-top: 10rem;
                             margin-left: auto;
                         }
@@ -697,7 +703,7 @@ body{
                             justify-content: center;
                         }
                         .ytv{ 
-                            height: 500px;
+                            width: 80% ;
                         }
                     }
                     #terminos{

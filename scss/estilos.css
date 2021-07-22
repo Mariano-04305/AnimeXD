@@ -422,15 +422,21 @@ body {
 }
 
 #contenido-animes .animes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
   width: 100%;
   margin: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 5rem;
+}
+
+#contenido-animes .cap1-contenedor {
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 #contenido-animes .bc {
@@ -649,6 +655,7 @@ body {
     height: auto;
   }
   #contenido-animes .animes {
+    display: inline;
     margin-top: 10rem;
     margin-left: auto;
   }
@@ -890,6 +897,7 @@ body {
     background-color: #191919;
   }
   #contenido-animes .animes {
+    display: inline;
     margin-top: 10rem;
     margin-left: auto;
   }
@@ -919,7 +927,7 @@ body {
             justify-content: center;
   }
   #contenido-animes .ytv {
-    height: 500px;
+    width: 80%;
   }
   #terminos .texterminos {
     text-align: center;
