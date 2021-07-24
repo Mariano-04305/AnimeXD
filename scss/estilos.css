@@ -9,7 +9,7 @@ body {
 
 #header {
   background-color: #080808;
-  width: 100%;
+  width: 108.6%;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -336,12 +336,16 @@ body {
 }
 
 #registro {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20% 60% 20%;
-      grid-template-columns: 20% 60% 20%;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #registro .registro-contenedor {
@@ -521,7 +525,7 @@ body {
     width: 40px;
   }
   .carrousel {
-    height: auto;
+    display: none;
   }
   #contenido {
     display: -webkit-box;
@@ -587,6 +591,7 @@ body {
   #nosotros {
     display: -ms-grid;
     display: grid;
+    height: auto;
   }
   #nosotros .nosotros-titulo {
     color: red;
@@ -759,7 +764,7 @@ body {
     width: 40px;
   }
   .carrousel {
-    height: auto;
+    display: none;
   }
   #contenido {
     display: -webkit-box;
@@ -830,7 +835,7 @@ body {
   #nosotros {
     display: -ms-grid;
     display: grid;
-    height: 90vh;
+    height: auto;
   }
   #nosotros .nosotros-titulo {
     color: red;
