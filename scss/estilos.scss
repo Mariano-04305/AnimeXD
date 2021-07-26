@@ -23,6 +23,7 @@ body{
             width: 40px;
         }
     .logo{
+        margin-left: 100px;
         margin-right: 150px;
     }
     .d:hover , #header .flecha:hover , .iniciar:hover , .logo:hover{
@@ -356,7 +357,7 @@ body{
                     }
                 }
                 .carrousel{
-                    height: auto;
+                    display: none;
                 }
                 #contenido{
                     display: flex;
@@ -560,7 +561,7 @@ body{
                         }
                     }
                     .carrousel{
-                        height: auto;
+                        display: none;
                     }
                     #contenido{
                         display: flex;
@@ -623,7 +624,7 @@ body{
                     }
                     #nosotros{ 
                         display: grid;
-                        height: 90vh;
+                        height: auto;
                         .nosotros-titulo{
                             color: red;
                             justify-self: center;
