@@ -86,7 +86,7 @@ body {
 
 .carrousel {
   width: 100%;
-  height: 500px;
+  height: auto;
   border-bottom: 10px solid black;
 }
 
@@ -162,6 +162,10 @@ body {
   color: red;
 }
 
+#contenido a:hover {
+  text-decoration: none;
+}
+
 #contenido .item-lista-contenido {
   margin-top: 10px;
   margin-bottom: 25px;
@@ -174,10 +178,6 @@ body {
           transform: scale(1.02);
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
-  text-decoration: none;
-}
-
-#contenido a:hover {
   text-decoration: none;
 }
 
@@ -337,16 +337,12 @@ body {
 }
 
 #registro {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
 }
 
 #registro .registro-contenedor {
@@ -473,6 +469,7 @@ body {
     background-color: #191919;
   }
   #header {
+    width: 100%;
     overflow: hidden;
     height: auto;
   }
