@@ -202,11 +202,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #3e3e3e;
+  margin: 0;
 }
 
 #footer .li-footer {
   margin-top: 6vh;
   margin-right: 4vh;
+  font-size: 2.3vh;
 }
 
 #footer a {
@@ -230,6 +232,10 @@ body {
 
 #footer .mb {
   margin-bottom: 5vh;
+}
+
+#footer .mail-ayuda:hover {
+  text-decoration: underline;
 }
 
 #sesion {
@@ -401,7 +407,7 @@ body {
 
 #nosotros .texto {
   margin: 10vh;
-  font-size: 2.5vh;
+  font-size: 2.2vh;
 }
 
 #ayuda {
