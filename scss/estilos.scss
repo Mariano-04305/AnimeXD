@@ -20,24 +20,24 @@ body{
         background-color: #080808;
     }
     .flecha{
-            width: 40px;
+            width: 4vh;
         }
     .logo{
-        margin-left: 100px;
-        margin-right: 150px;
+        margin-left: 7vh;
+        margin-right: 15vh;
     }
     .d:hover , #header .flecha:hover , .iniciar:hover , .logo:hover{
         transform: scale(1.15);
         transition: all 350ms ease-in-out;
     }
     .barra{
-        margin-right: 250px;
+        margin-right: 16vh;
     }
     .drop{
-        margin-right: 100px;
+        margin-right: 10vh;
     }
     .header-list{
-        margin-left: 100px;
+        margin-left: 10vh;
     }
     .d{
         color: whitesmoke;
@@ -61,15 +61,15 @@ body{
 .carrousel{
     width: 100%;
     height: auto;
-    border-bottom: 10px solid black;
+    border-bottom: 3vh solid black;
     a{
         text-decoration: none;
         color: whitesmoke;
     }
 }
 #contenido{
-    max-width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
 	display: flex;
 	flex-direction: row;
     .animes-fotos{
@@ -79,12 +79,11 @@ body{
         border-top: solid black 2vh;
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
+        overflow: hidden;
     }
     .imagenes-link{
-        width: auto;
-        margin-left: 7vh;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        width: 9rem;
+       margin: 4.5vh;
     }
     .imagenes-link:hover{
         transform: scale(1.07);
@@ -143,7 +142,7 @@ body{
     .li-footer{
         margin-top: 6vh;
         margin-right: 4vh;
-        font-size: 2.3vh;
+        font-size: 1rem;
     }
     a{
         color: #3e3e3e;
@@ -196,7 +195,7 @@ body{
         height: auto;
     }
     .texto-sesion{
-        font-size: 2.5vh;
+        font-size: 1rem;
         margin-right: 2vh;
     }
 }
@@ -222,6 +221,7 @@ body{
     .registro-formulario{
         margin-top: 1.5vh;
         margin-bottom: 3vh;
+        margin-left: 2vh;
     }
     .reg{
         height: 3.5vh;
@@ -244,11 +244,11 @@ body{
     }
     label{
         width: 100%;
-        font-size: 2.5vh;
+        font-size: 1rem;
     }
     .label-no-cien{
         width: auto;
-        font-size: 2.5vh;
+        font-size: 1rem;
     }
 }
 #nosotros{
@@ -280,32 +280,6 @@ body{
         font-size: 2.2vh;
     }
 }
-#ayuda{
-    width: 100%;
-    height: auto;
-    background-color: #191919;
-    display: flex;
-    flex-direction: row;
-    .contenedor-de-ayuda{
-        width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .ayuda-lista li{
-        list-style-type: none;
-        margin-left: 25vh;
-        margin-bottom: 7vh;
-    }
-    .tomioka-container{
-        width: 50%;
-        background-image: url(../media/tomioka.jpg);
-        background-repeat: repeat;
-        overflow: hidden;
-        height: auto;
-    }
-}
 #terminos{
 	height: auto;
     .texterminos{
@@ -315,16 +289,20 @@ body{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 150px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-left: 20vh;
+        margin-top: 15vh;
+        margin-bottom: 20vh;
     }
     .terminos-y-condiciones{
-        margin-left: 50px;
+        margin-left: 8vh;
     }
     .titulo-terminos{
-        font-size: 17px;
+        font-size: 3vh;
         color: red;
+        margin-top: 5vh;
+    }
+    p{
+        font-size: 2vh;
     }
 }
 #contenido-animes{
@@ -332,21 +310,22 @@ body{
     background-repeat: repeat;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: auto;
     .animes{
         display: grid;
         grid-template-columns: 100%;
         width: 100%;    
         margin: 0;
         justify-content: center;
-        margin-top: 5rem;
+        margin-top: 10vh;
     }
     .cap1-contenedor{
         justify-self: center;
     }
     .bc{
-        margin-top: 15px;
-        margin-bottom: 200px;
-        
+        margin-top: 3vh;
+        margin-bottom: 15vh;
         background-color: rgb(15, 15, 15);
         color: whitesmoke;
         border: none;
@@ -358,6 +337,9 @@ body{
     .botones{
         display: flex;
         justify-content: center;
+    }
+    .ytv{
+        
     }
 }
 
@@ -373,43 +355,44 @@ body{
                         display: flex;
                         flex-direction: row-reverse;
                         justify-content: center;
-                        margin-left: 200px;
+                        margin-left: 15vh;
                     }
                     .barra-busqueda{
-                        margin-top: 15px;
-                        margin-bottom: 20px;
+                        margin-top: 3vh;
+                        margin-bottom: 3vh;
                     }
                     .barra{
-                        margin-left: 200px;
+                        margin-left: 15vh;
                     }
                     .drop{
-                        margin-left: 100px;
-                        margin-top: 10px;
+                        margin-left: 15vh;
+                        margin-top: 2vh;
                     }
                     .header-list{
-                        margin-top: 20px;
+                        margin-top: 3vh;
                     }
                     .logo{
-                        width: 150px;
-                        margin-left: 100px;
+                        width: 15vh;
+                        margin-left: 5vh;
                     }
                     .directorio{
-                        width: 50px;
+                        width: auto;
                     }
                     .iniciar{
-                        width: 35px;
+                        width: 4vh;
                     }
                     .directorio-dos{
-                        width: 50px;
+                        width: 5vh;
                     }
                     .d{
                         width: 20%;
                     }
-                    .celuHeader{
-                        color: whitesmoke;
-                    }
                     .flecha{
-                        width: 40px;
+                        width: 5vh;
+                    }
+                    .header-list{
+                        margin: 0;
+                        margin-bottom: 4.5vh;
                     }
                 }
                 .carrousel{
@@ -442,15 +425,15 @@ body{
                     }
                 }
                 #sesion{
-                .c-formulario-inicio-de-sesion{
-                    width: 100%;
+                    .c-formulario-inicio-de-sesion{
+                        width: 100%;
                     }
-                    .rengoku-container{
+                    .tomioka-container{
                         width: 0;
                     }
                     .formulario-inicio-de-sesion{
-                        margin-bottom: 200px;
-                        margin-top: 75px;
+                        margin-bottom: 25vh;
+                        margin-top: 10vh;
                     }
                 }
                 #registro{
@@ -460,21 +443,6 @@ body{
                     .tomioka-container{
                         display: none;
                     }
-                    .registro-formulario{
-                        margin-left: 5vh;
-                        font-size: 1rem;
-                    }
-                    .r{
-                        color: red; 
-                        margin-left: 15px; 
-                        border-top: 10px;
-                    }
-                    label{
-                        width: 100%;
-                    }
-                    .label-no-cien{
-                        width: auto;
-                    }
                 }
                 #nosotros{ 
                     display: grid;
@@ -482,54 +450,20 @@ body{
                     .nosotros-titulo{
                         color: red;
                         justify-self: center;
-                        font-size: 15px;
+                        font-size: 1.5rem;
                         margin: 0;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
+                        margin-top: 8vh;
+                        margin-bottom: 4vh;
                     
                     }
                     .nosotros-contenedor-de-texto{
-                        font-size: 12px;
+                        font-size: 1rem;
                         width: 70%;
                         height: auto;
                         justify-self: center;
                         margin: 0;
-                        margin-bottom: 25px;
-                    }
-                }
-                #ayuda{
-                    width: auto;
-                    height: 82vh;
-                    background-color: #191919;     
-                    .contenedor-de-ayuda{
-                        width: 100%;
-                        height: 82vh;
-                    }
-                    .ayuda-lista {
-                        list-style-type: none;
-                        justify-self: center;
-                        align-self: center;
-                        padding: 0;
-                        margin-right: 200px;
-                    }
-                    .contenedor-de-imagen-de-ayuda{
-                        width: 0;
-                    }		
-                }
-                #footer{
-                    height: auto;
-                    width: 100%;
-                    .fo{
-                        margin: 10px;
-                    }
-                    .footer-list{
-                        margin: 0;
-                        margin-right: 20px;
-                        flex-direction: column;
-                        justify-content: start;
-                    }
-                    .li-footer{
-                        margin-top: 1vh;
+                        margin-bottom: 12vh;
+                        margin-right: 5vh;
                     }
                 }
                 #contenido-animes{
@@ -566,14 +500,14 @@ body{
                         display: contents;
                     }
                     .terminos-y-condiciones{
-                        margin-top: 100px;
-                        margin-bottom: 200px;
-                        margin-left: 20px;
-                        margin-right: 20px;
-                        font-size: 13px;
+                        margin-top: 15vh;
+                        margin-bottom: 40vh;
+                        margin-left: 6vh;
+                        margin-right: 6vh;
+                        font-size: 1rem;
                     }
                 }
-                }
+            }
 
 
                 @media all and (min-width: 768px) and (max-width: 1200px){
@@ -587,44 +521,43 @@ body{
                             display: flex;
                             flex-direction: row-reverse;
                             justify-content: center;
-                            margin-left: 200px;
+                            margin-left: 20vh;
                         }
                         .barra-busqueda{
-                            margin-top: 15px;
-                            margin-bottom: 20px;
+                            margin-top: 3vh;
+                            margin-bottom: 3vh;
                         }
                         .barra{
-                            margin-left: 200px;
-                            
+                            margin-left: 20vh;
                         }
                         .drop{
-                            margin-left: 100px;
-                            margin-top: 10px;
+                            margin-left: 15vh;
+                            margin-top: 2vh;
                         }
                         .header-list{
-                            margin-top: 20px;
+                            margin: 0;
+                            margin-top: 4vh;
+                            margin-left: 5vh;
                         }
                         .logo{
-                            width: 150px;
-                            margin-left: 100px;
+                            width: 14vh;
+                            margin-left: 10vh;
+                            margin-top: 2vh;
                         }
                         .directorio{
                             width: 50px;
                         }
                         .iniciar{
-                            width: 35px;
+                            width: 4vh;
                         }
                         .directorio-dos{
-                            width: 50px;
+                            width: 4vh;
                         }
                         .d{
                             width: 20%;
                         }
-                        .celuHeader{
-                            color: whitesmoke;
-                        }
                         .flecha{
-                            width: 40px;
+                            width: 4vh;
                         }
                     }
                     .carrousel{
@@ -659,12 +592,12 @@ body{
                     .c-formulario-inicio-de-sesion{
                         width: 100%;
                         }
-                        .rengoku-container{
-                            width: 0;
+                        .tomioka-container{
+                            display: none;
                         }
                         .formulario-inicio-de-sesion{
-                            margin-top: 150px;
-                            margin-bottom: 250px;
+                            margin-top: 12vh;
+                            margin-bottom: 20vh;
                         }
                     }
                     #registro{
@@ -685,9 +618,7 @@ body{
                             color: red;  
                             margin-top: 10vh;
                             justify-self: center;
-                            
                         }
-                        
                     }
                     #nosotros{ 
                         display: grid;
@@ -695,53 +626,20 @@ body{
                         .nosotros-titulo{
                             color: red;
                             justify-self: center;
-                            font-size: 20px;
+                            font-size: 1.5rem;
                             margin: 0;
-                            margin-top: 100px;
-                           
+                            margin-top: 10vh;
+                            margin-bottom: 5vh;
                         }
                         .nosotros-contenedor-de-texto{
-                            font-size: 15px;
                             width: 70%;
                             height: auto;
                             justify-self: center;
                             margin: 0;
-                            margin-bottom: 150px;
+                            margin-bottom: 25vh;
                         }
-                    }
-                    #ayuda{
-                        width: auto;
-                        height: 82vh;
-                        background-color: #191919;     
-                        .contenedor-de-ayuda{
-                            width: 100%;
-                            height: 82vh;
-                        }
-                        .ayuda-lista {
-                            list-style-type: none;
-                            justify-self: center;
-                            align-self: center;
-                            padding: 0;
-                            margin-right: 150px;
-                        }
-                        .contenedor-de-imagen-de-ayuda{
-                            width: 0;
-                        }		
-                    }
-                    #footer{
-                        height: auto;
-                        width: 100%;
-                        .fo{
-                            margin: 10px;
-                        }
-                        .footer-list{
-                            margin: 0;
-                            margin-right: 20px;
-                            flex-direction: column;
-                            justify-content: start;
-                        }
-                        .li-footer{
-                            margin-top: 1vh;
+                        .texto{
+                            font-size: 1rem;
                         }
                     }
                     #contenido-animes{
@@ -775,12 +673,14 @@ body{
                             display: contents;
                         }
                         .terminos-y-condiciones{
-                            margin-left: 20px;
-                            margin-right: 20px;
-                            margin-top: 100px;
-                            margin-bottom: 200px;
-                            font-size: 15px;
+                            margin-left: 4vh;
+                            margin-right: 4vh;
+                            margin-top: 12vh;
+                            margin-bottom: 20vh;
+                        }
+                        p{
+                            font-size: 1rem;
                         }
                     }
-                    }
+                }
       
