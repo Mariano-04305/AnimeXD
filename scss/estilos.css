@@ -458,7 +458,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 #contenido-animes .animes {
@@ -471,7 +471,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 
 #contenido-animes .cap1-contenedor {
@@ -501,6 +501,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 25vh;
 }
 
 @media all and (max-width: 768px) {
@@ -585,8 +586,9 @@ body {
             justify-content: center;
   }
   #contenido .imagenes-link {
-    width: 100px !important;
-    margin: 40px;
+    width: 7.5rem !important;
+    height: auto !important;
+    margin: 5vh;
     -ms-grid-column-align: center;
         justify-self: center;
   }
@@ -638,6 +640,7 @@ body {
     margin: 0;
     margin-bottom: 12vh;
     margin-right: 5vh;
+    margin-left: 5vh;
   }
   #contenido-animes {
     background-image: none;
@@ -769,8 +772,9 @@ body {
             justify-content: center;
   }
   #contenido .imagenes-link {
-    width: 115px !important;
-    margin: 40px;
+    width: 7.5rem !important;
+    height: auto !important;
+    margin: 5vh;
     -ms-grid-column-align: center;
         justify-self: center;
   }

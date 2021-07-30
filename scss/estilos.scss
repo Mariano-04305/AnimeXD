@@ -311,14 +311,14 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: auto;
+    height: 100%;
     .animes{
         display: grid;
         grid-template-columns: 100%;
         width: 100%;    
         margin: 0;
         justify-content: center;
-        margin-top: 10vh;
+        margin-top: 20vh;
     }
     .cap1-contenedor{
         justify-self: center;
@@ -337,6 +337,7 @@ body{
     .botones{
         display: flex;
         justify-content: center;
+        margin-bottom: 25vh;
     }
     .ytv{
         
@@ -409,8 +410,9 @@ body{
 
                     }
                     .imagenes-link{
-                        width: 100px !important; 
-                        margin: 40px;
+                        width: 7.5rem !important; 
+                        height: auto !important;
+                        margin: 5vh;
                         justify-self: center;
                         
                     }
@@ -464,6 +466,7 @@ body{
                         margin: 0;
                         margin-bottom: 12vh;
                         margin-right: 5vh;
+                        margin-left: 5vh;
                     }
                 }
                 #contenido-animes{
@@ -570,11 +573,11 @@ body{
                             width: 100%;
                             display: grid;
                             justify-content: center;
-    
                         }
                         .imagenes-link{
-                            width: 115px !important; 
-                            margin: 40px;
+                            width: 7.5rem !important; 
+                            height: auto !important; 
+                            margin: 5vh;
                             justify-self: center;
                             
                         }
