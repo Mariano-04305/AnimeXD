@@ -95,6 +95,17 @@ body {
   color: whitesmoke;
 }
 
+.carrousel li {
+  width: 6px;
+  height: 6px;
+  margin-right: 5px;
+  border-radius: 25%;
+}
+
+.carrousel .flechita-carrousel {
+  height: 20px;
+}
+
 #contenido {
   width: 100%;
   height: 100%;
@@ -554,7 +565,7 @@ body {
     width: 5vh;
   }
   #header .d {
-    width: 20%;
+    width: 30%;
   }
   #header .flecha {
     width: 5vh;
