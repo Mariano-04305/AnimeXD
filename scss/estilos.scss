@@ -1,12 +1,13 @@
+@import "variables.scss";
 *{
 	font-family: 'Rubik', sans-serif;
 }
 body{
-	background-color: #191919;
+	background-color: $color-clarito;
 	color: whitesmoke;
 }
 #header{
-    background-color: #080808;	
+    background-color: $color-oscuro;	
 	width: 100%;
 	height: auto;
 	display: flex;
@@ -17,7 +18,7 @@ body{
         margin: auto;
         height: auto;
         width: auto;
-        background-color: #080808;
+        background-color: $color-oscuro;
     }
     .flecha{
             width: 4vh;
@@ -27,8 +28,7 @@ body{
         margin-right: 15vh;
     }
     .d:hover , #header .flecha:hover , .iniciar:hover , .logo:hover{
-        transform: scale(1.15);
-        transition: all 350ms ease-in-out;
+       @include animaciones
     }
     .barra{
         margin-right: 16vh;
@@ -52,8 +52,7 @@ body{
         border-radius: 100px;
     }
     .directorio ,:focus{
-        transform: scale(1.05);
-        transition: all 350ms ease-in-out;
+        @include animaciones;
         background-color: #292929;
         color: white;
     }
@@ -95,8 +94,7 @@ body{
        margin: 4.5vh;
     }
     .imagenes-link:hover{
-        transform: scale(1.07);
-        transition: all 350ms ease-in-out;
+        @include animaciones
     }
     .card-body{
         display: flex;
@@ -110,7 +108,7 @@ body{
         border: none;
     }
     .animes-lista{
-        background-color: #191919;
+        background-color: $color-clarito;
         width: 30%;
         border-left: solid black 2vh;
         border-top: solid black 2vh;
@@ -131,15 +129,14 @@ body{
         text-decoration: none;
     }
     .item-lista-contenido:hover{
-        transform: scale(1.02);
-        transition: all 150ms ease-in-out;
+        @include animaciones;
         text-decoration: none;
     }
 }
 #footer{
 	width: 100%;
 	height: auto;
-	background-color: #080808;
+	background-color: $color-oscuro;
     .footer-list{
         display: flex;
         flex-direction: column;
@@ -160,8 +157,7 @@ body{
         text-decoration: none;
     }
     .fo:hover{
-        transform: scale(1.11);
-        transition: all 150ms ease-in-out;
+        @include animaciones
     }
     .ig{
         width: 100%;
@@ -236,8 +232,7 @@ body{
         height: 3.5vh;
     }
     .reg :focus{
-        transform: scale(1.05);
-        transition: all 350ms ease-in-out;
+        @include animaciones;
         background-color: #292929;
         color: white;
     }   
@@ -263,7 +258,7 @@ body{
 #nosotros{
 	width: auto;
 	height: auto;
-	background-color: #191919;
+	background-color: $color-clarito;
     display: grid;
     .nosotros-titulo{
         color: red;
@@ -276,7 +271,7 @@ body{
     .nosotros-contenedor-de-texto{
         width: 85%;
         height: auto;
-        background-color: #080808;
+        background-color: $color-oscuro;
         display: flex;
         flex-direction: row;
         justify-self: center;
@@ -294,7 +289,7 @@ body{
     .texterminos{
         width: 83%;
         height: auto;
-        background-color: #080808;
+        background-color: $color-oscuro;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -340,22 +335,18 @@ body{
         border: none;
     }
     .bc:hover{
-        transform: scale(1.1);
-        transition: all 350ms ease-in-out;
+        @include animaciones
     }
     .botones{
         display: flex;
         justify-content: center;
         margin-bottom: 25vh;
     }
-    .ytv{
-        
-    }
 }
 
             @media all and (max-width: 768px){
                 body{
-                background-color: #191919;
+                background-color: $color-clarito;
                 }
                 #header{
                         width: 100%;
@@ -465,7 +456,6 @@ body{
                         margin: 0;
                         margin-top: 8vh;
                         margin-bottom: 4vh;
-                    
                     }
                     .nosotros-contenedor-de-texto{
                         font-size: 1rem;
@@ -480,7 +470,7 @@ body{
                 }
                 #contenido-animes{
                     background-image: none;
-                    background-color: #191919;
+                    background-color: $color-clarito;
                     height: auto;
                     .animes{
                         display: inline;
@@ -520,11 +510,9 @@ body{
                     }
                 }
             }
-
-
                 @media all and (min-width: 768px) and (max-width: 1200px){
                     body{
-                    background-color: #191919;
+                    background-color: $color-clarito;
                     }
                     #header{
                             overflow: hidden;
@@ -656,7 +644,7 @@ body{
                     }
                     #contenido-animes{
                         background-image: none;
-                        background-color: #191919;
+                        background-color: $color-clarito;
                         .animes{
                             display: inline;
                             margin-top: 10rem;
