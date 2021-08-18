@@ -4,4 +4,21 @@ $color-clarito: #191919;
     transform: scale(1.15);
     transition: all 350ms ease-in-out;
   }
-
+@mixin footer-lista-propiedades {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    color: #3e3e3e; 
+    margin: 0;
+  }
+@mixin registro-contenedor-propiedades {
+    background-color: #131313;
+    line-height: 6vh;
+    height: auto;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
